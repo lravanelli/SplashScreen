@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    android:background="@color/background_splash"
+    android:gravity="center"
+    android:orientation="vertical"
+
+    tools:context="com.example.fernandoravanelli.splashscreen.SplashScreen">
+
+    <ImageView
+        android:layout_width="@dimen/largura_logo_splash"
+        android:layout_height="@dimen/largura_logo_splash"
+        android:id="@+id/splash"
+        android:background="@drawable/yoga" />
+
+</LinearLayout>
+
